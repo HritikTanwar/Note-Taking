@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+/*font-family: 'Ubuntu', sans-serif;*/
+
+
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(background.jpg);
+    background-size:cover;
+    padding: 5px 0px 0px 5px;
+    width: 500px;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    box-sizing: border-box;
+    
+}
+
+#head-el{
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#note-el{
+    font-weight: 200;
+    width: 85%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.115);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 3px solid rgba(4, 107, 2, 0.47);
+    border-radius: 6px ;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+
+#save-btn{
+    
+    width: 74px;
+    height: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    position: relative;
+    float: right;
+    margin-top: 3px;
+    margin-right: 95px;
+}
+#del-btn{
+    width: 74px;
+    height: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    position: relative;
+    float: right;
+    margin-top: 3px;
+    margin-right: 2%;
+}
+
+#save-btn:hover{
+    color: white;
+    background-color: rgb(68, 57, 78);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#del-btn:hover{
+    color: white;
+    background-color: rgb(68, 57, 78);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#note-li{
+    padding-top: 15px;
+    margin-left: 8%;
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#ul-el{
+    color: rgb(252, 247, 247);
+    margin-left: 8%;
+    font-size: 10px;
+    padding: 15px;
+    background: rgba(68, 57, 78);
+    border-radius: 6px;
+    font-weight: bold;
+    width: 80%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
